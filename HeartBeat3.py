@@ -25,6 +25,8 @@ info = StreamInfo(name='psychopy-lsl', type='Markers', channel_count=1,
 outlet = StreamOutlet(info)
 import os  # handy system and path functions
 import sys  # to get file system encoding
+
+#------The variables to control which trials are shown and how long they last------>
 trialLengthInSeconds = 1
 breakLengthInSeconds = 20
 InterTrialLengthInSeconds = .25
